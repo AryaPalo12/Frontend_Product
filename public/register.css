@@ -1,0 +1,66 @@
+body{
+  background-color : black;
+}
+body h1{
+  text-align : center;
+  font-family : Arial;
+  font-size : 48px;
+  color : white;
+}
+
+#container {
+  color:white;
+  display : flex;
+  flex-direction : column;
+  max-width : 400px;
+  min-height:100px;
+  margin : auto;
+  border : 1px black solid;
+  align-items : center;
+  padding : 20px;
+  justify-content : center;
+  background: linear-gradient(15deg, grey,white);
+  border-radius : 15px;
+}
+
+#container form {
+  font-family : Arial ;
+  font-size : 24px;
+}
+
+#container input{
+  font-size : 20px;
+  min-height : 32px;
+  min-width : 300px;
+  border-radius : 10px;
+}
+
+#container legend{
+  align-items:center;
+}
+
+.button{
+  min-width : 300px;
+  border-radius : 4px;
+  font-size : 24px;
+}
+
+.button:hover {
+  background-color : black;
+  color :white;
+  border : 2px white solid;
+}
+
+#Bottom {
+  color :white;
+  font-size : 20px;
+}
+
+#Bottom a{
+  cursor:pointer;
+  color:white;
+}
+
+#Bottom a:hover {
+  color : yellow;
+}
